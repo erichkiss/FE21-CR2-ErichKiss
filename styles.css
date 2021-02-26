@@ -56,10 +56,34 @@ HEADER & NAV
     margin: 20px;
     color: #fff;
     text-align: center;
+    /* text-decoration: none; */
 }
 
+.Content__box a {
+    text-decoration: none;
+    color: #fff;
+}
 
+.footer__text {
+    letter-spacing: 2px;
+}
 
+/* ============
+ARTICLE TABLE
+============ */
+
+.articleTable div {
+    display: flex;
+
+    margin: 20px;
+    /* flex-direction: row; */
+}
+
+.articleTable img {
+    width: 20vw;
+    height: 100%;
+    margin: 20px;
+}
 
 /* ============
 FOOTER & NAV
