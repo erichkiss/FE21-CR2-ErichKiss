@@ -101,7 +101,64 @@ FOOTER & NAV
     color: #fff;
 }
 
+/* ============
+CONTACT FORM
+============ */
 
+.contact {
+    background-color: #BE0B0B;
+}
+
+.form .inputBox {
+    /* margin-top: 50px; */
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 500px;
+}
+
+.form .inputBox input {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.form .inputBox input::placeholder {
+    color: #fff;
+}
+
+.form .inputBox textarea {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    min-height: 150px;
+    border-bottom: 2px solid #fff;
+}
+
+.form .inputBox textarea::placeholder {
+    color: #fff;
+}
+
+.form .inputBox input[type="submit"] {
+    width: 150px;
+    background: #fff;
+    color: #111;
+    cursor: pointer;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
 
 
 /* ============
