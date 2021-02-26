@@ -16,6 +16,14 @@
     background-color: #5B191A;
 }
 
+#date {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    margin-right: 1vw;
+}
+
 /* smartphone / small screens */
 @media screen and (max-width: 480px) { 
     body {
@@ -29,6 +37,10 @@
         min-height: 80px;
     }
     .banner__textbanner {
+        display: none;
+    }
+
+    #date {
         display: none;
     }
 }    
