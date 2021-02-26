@@ -1,18 +1,60 @@
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  background: grey;
+/* I like this font a lot */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* resetting stuff */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-nav li {
-  display: inline-block;
+/* the top banner with the two pictures inside */
+.banner {
+    display: flex;
+    height: 10vh;
+    background-color: #5B191A;
 }
 
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  color: #blue;
+/* smartphone / small screens */
+@media screen and (max-width: 480px) { 
+    body {
+        background-color: lightgreen;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
+    }
+    .banner__textbanner {
+        display: none;
+    }
+}    
+
+ /* tablet / medium screens */
+@media screen and (min-width: 481px) and (max-width: 1200px) {
+    body {
+        background-color: deepskyblue;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 150px;
+    }
 }
-/*# sourceMappingURL=styles.css.map */
+
+/* desktop / wide screens */
+@media screen and (min-width:1201px) {
+    body {
+        background-color: darksalmon;
+    }
+
+    .banner {
+        justify-content: space-around;
+        align-items: center;
+    }
+}

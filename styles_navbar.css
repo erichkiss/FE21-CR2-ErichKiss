@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: grey;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+/*# sourceMappingURL=styles_navbar.css.map */
